@@ -1,0 +1,102 @@
+@media (min-width: 64em) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+
+@media (min-width: 46.25em) and (max-width: 63.975em) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+
+    #navbar .subnav>li>a {
+        padding: 5px 12px;
+    }    
+
+}
+
+@media (max-width: 63.975em) {
+
+    #content .btn {
+        padding: 17px 16px
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    #footer .socials-list{
+        font-size: 48px;
+        margin: 0 8px;
+    }
+
+    #footer .copy-right a {
+        display: inline-block;
+        padding: 0 12px;
+    }
+    #content .contact-info {
+        line-height: 2;
+    }
+    .contact-submit-btn{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+
+    #navbar li {
+        display: block;
+
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+    #navbar {
+        display: block;
+    }
+
+    #navbar>li>a {
+        display: block;
+    }
+
+    #navbar>li:first-child {
+        display: inline-block;
+    }
+
+    #navbar .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+
+
+    #content .list-band-member .member-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .member-picture {
+        width: 60%;
+    }
+
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .contact-form {
+        padding-top: 32px;
+        margin-left: 8px;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+}
